@@ -11,7 +11,7 @@ cd ext
 
 ## 编译配置
 
-cd f_wcl
+cd f_wcl  
 vim config.m4
 #### 去掉 PHP_ARG_ENABLE 和 --enable-f_wcl前面的dnl
 
@@ -22,9 +22,9 @@ vim f_wcl.c
 
 ## 编译、安装
 
-PHP安装目录/bin/phpize
-PHP源码目录/ext/f_wcl/configure --with-php-config=PHP安装目录/bin/php-config
-PHP源码目录/ext/f_wcl/make && make install
+PHP安装目录/bin/phpize  
+PHP源码目录/ext/f_wcl/configure --with-php-config=PHP安装目录/bin/php-config  
+PHP源码目录/ext/f_wcl/make && make install  
 
 ## 配置文件 
 
