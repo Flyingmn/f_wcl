@@ -4,7 +4,7 @@ linux命令 wc -l
 
 ## 初始化
 
-### 进入PHP源码ext
+### 进入PHP7源码ext
 cd ext
 #### 编辑文件 f_wcl.def 内容如src
 ./ext_skel --extname=f_wcl --proto=f_wcl.def
